@@ -1,4 +1,4 @@
-# PROJECTV2
+# Register Machine Interpreter (Haskell)
 
 A simple **register machine interpreter written in Haskell**. It reads a program from a text file, executes the instructions, and returns the final value stored in the `rv` register.
 
@@ -71,13 +71,12 @@ Enter the name of the program file when prompted.
 
 The project includes tests for all implemented instructions.
 
-Evaluate:
+Load the file in GHCi and evaluate the test suite:
 
-```haskell
-exectestsuite
-```
+    ghci PROJECTV2.hs
+    > exectestsuite
 
-A result of `True` means all tests passed.
+`True` means all tests passed.
 
 ## Built With
 
